@@ -8,10 +8,15 @@ h1{
 	margin-bottom: 3%;
 }
 
+label{
+	text-align: center;
+	font-size: 1.2em;
+}
+
 .outter-container{
-  margin-left: 33%;
+  margin-left: 36%;
   margin-top: 10%;
-  margin-right: 33%;
+  margin-right: 36%;
   width: auto;
   border: solid 1px;
   border-color: rgb(77, 21, 232);
@@ -21,8 +26,12 @@ h1{
 }
 
 .inner-container{
-	background-color: rgb(232, 208, 247);
-	padding: 2%;
-	border-radius: 2%;
-	border: solid 0px;
+  background-color: rgb(212, 197, 250);
+  padding: 2%;
+  border-radius: 2%;
+  border: solid 0px;
+}
+
+.button{
+  margin-left: 80%;
 }
