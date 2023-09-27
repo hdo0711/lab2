@@ -35,3 +35,16 @@ label{
 .button{
   margin-left: 80%;
 }
+
+@media (max-width: 600px){
+  .outter-container{
+	padding: 3%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+  
+  .inner-container{
+	background-color: rgb(218, 250, 197);
+  }
+}
