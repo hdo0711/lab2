@@ -3,15 +3,16 @@
   <head>
     <title>Lab 2</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/meyersreset-and-normalize-form.css">
     <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body>
     <form action="#null" method="POST" autocomplete="on">
-      <section class="container">
-        <h1>Info Form</h1>
+      <section class="outter-container">
+        <section class="inner-container">
+		<h1>Info Form</h1>
         <div>
           <label for="email">Email address:</label>
           <input type="email" name="email" id="email" placeholder="username@example.com" required>
@@ -20,8 +21,8 @@
 		<br>
 		
         <div>
-          <label for="phone_num">Phone number:</label>
-          <input type="tel" name="phone_num" placeholder="(123)456-7890" id="phone_num" required>
+          <label for="phone-num">Phone number:</label>
+          <input type="tel" name="phone-num" placeholder="(123) 456-7890" id="phone-num" required>
         </div>
 		
 		<br>
@@ -36,6 +37,7 @@
         <div>
           <input type="submit">
         </div>
+		</section>
       </section>
     </form>
   </body>

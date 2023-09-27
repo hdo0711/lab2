@@ -1,0 +1,28 @@
+body{
+  background-color: rgb(242, 229, 211);
+}
+
+h1{
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.outter-container{
+  margin-left: 33%;
+  margin-top: 10%;
+  margin-right: 33%;
+  width: auto;
+  border: solid 1px;
+  border-color: rgb(77, 21, 232);
+  border-radius: 2%;
+  padding: 1%;
+  background-color: white;
+}
+
+.inner-container{
+	background-color: rgb(232, 208, 247);
+	padding: 2%;
+	border-radius: 2%;
+	border: solid 0px;
+}
